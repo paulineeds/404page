@@ -8,7 +8,6 @@ body {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  opacity: 0.5;
 }
 
 
@@ -28,4 +27,30 @@ h2 {
 
 h3 {
   font-size: 20px;
+}
+
+.BUTTON {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #C0E8E3;
+   font-family:'ZCOOL QingKe HuangYou', cursive;
+   font-size: 42px;
+   font-weight: 600;
+   padding: 31px;
+   background-color: #F7E5B4;
+   text-shadow: 1px 1px 9px #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   width: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.BUTTON:hover {
+   background: #C0E8E3;
+   text-decoration: none;
+   color: #F7E5B4;
 }
